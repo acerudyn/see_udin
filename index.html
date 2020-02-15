@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Website Official IG see_udin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="see_udin, instagram see_udin, Muhamad Akhirudin,
+Akhirudin Muhamad, Website see_udin, Website Muhamad Akhirudin, Responsive web template,
+Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson" />
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+	<!-- css files -->
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/icon.png">
+	<!-- //css files -->
+
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<!-- //google fonts -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      $("#btn_submit").click(function(){
+        var firstName = $("#first_name").val();
+        var lastNanme = $("#last_name").val();
+        var Phone = $("#phone").val();
+        var Email = $("#email").val();
+        var Message = $("#message").val();
+
+        if (firstName && lastNanme && Phone && Email && Message != '') {
+          var url = "https://api.whatsapp.com/send?phone=6281387786505&text=Nama%20%3A%20"+firstName+"%20"+lastNanme+
+          "%0ATelefon%20%3A%20"+Phone+"%0AEmail%20%3A%20"+Email+"%0AMessage%20%3A%20"+Message;
+          window.open(url, '_blank');
+        } else {
+          swal("Error", "Harap lengkapi formnya", "error");
+        }
+      });
+
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="content">
+	<div class="container">
+
+	<section class="banner_w3lspvt" id="home">
+		<div class="csslider infinity" id="slider1">
+			<input type="radio" name="slides" checked="checked" id="slides_1"/>
+			<input type="radio" name="slides" id="slides_3"/>
+			<input type="radio" name="slides" id="slides_4"/>
+			<input type="radio" name="slides" id="slides_5"/>
+
+			<ul class="banner_slide_bg">
+				<li>
+					<div class="slider-info">
+						<div class="bs-slider-overlay">
+							<div class="row">
+								<div class="col-lg-6 left-text">
+									<h1><i class="fa fa-instagram" aria-hidden="true"></i><span> see_udin</span></h1>
+									<h2>Hallo Semuanya,</h2>
+									<p class="mt-3">Untuk yang belum tahu saya, perkenalkan saya Muhamad Akhirudin biasa dipanggil udin.
+                  Saya seorang web developer, selain itu juga tertarik pada dunia design dan video editing.
+                  Oleh karena itu muncul lah akun istagram @see_udin, sebagai wadah untuk
+                  menuangkan kreasi saya khususnya dalam bidang video editing, isinya video singkat dakwah yang
+                  ramah, menenangkan & menyejukkan. Semoga bisa bermanfaat untuk semua... <i class="fa fa-smile-o" aria-hidden="true"></i></p>
+									<!-- <a href="#">Read More</a> -->
+								</div>
+								<div class="col-lg-6 image mt-lg-0">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider-info">
+						<div class="bs-slider-overlay1">
+							<h3 class="heading text-center mb-md-5 mb-4">Our Services</h3>
+							<div class="row">
+								<div class="col-lg-7">
+									<div class="featured-left text-center row">
+										<div class="col-sm-6 mb-4">
+											<div class="ser-grid icon1">
+												<span class="fa fa-laptop" aria-hidden="true"></span>
+												<h3 class="mb-2">Website</h3>
+												<p class="px-lg-3">Menerima jasa pembuatan website</p>
+											</div>
+										</div>
+										<div class="col-sm-6 mb-4">
+											<div class="ser-grid icon2">
+												<span class="fa fa-object-group" aria-hidden="true"></span>
+												<h3 class="mb-2"> Design </h3>
+												<p class="px-lg-3">Jasa pembuatan logo, poster, banner, dll</p>
+											</div>
+										</div>
+										<div class="col-sm-6 mb-4">
+											<div class="ser-grid icon3">
+												<span class="fa fa-mobile" aria-hidden="true"></span>
+												<h3 class="mb-2">Mockcup UI/X</h3>
+												<p class="px-lg-3">Jasa desain mockup aplikasi web & mobile</p>
+											</div>
+										</div>
+										<div class="col-sm-6 mb-4">
+											<div class="ser-grid icon4">
+												<span class="fa fa-video-camera" aria-hidden="true"></span>
+												<h3 class="mb-2">Videography</h3>
+												<p class="px-lg-3">Jasa video editing & invitation wedding</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 col-md-6">
+									<img src="images/laptop.png" class="img-fluid" alt="banner.png" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider-info">
+						<div class="bs-slider-overlay1">
+							<h3 class="heading text-center mb-md-5 mb-4">Video Collection</h3>
+							<div class="portfolio position-relative">
+								<div class="row news-grids mt-md-5 mt-4 text-center">
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g1"><img src="images/rumi.png" alt="img" class="img-fluid"
+                      title="Filsafat Jalaludin Rumi"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g2"><img src="images/rabiah.png" alt="img_rabiah" class="img-fluid"
+                      title="Filsafat Rabiah Adawiyah"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g3"><img src="images/ronggowarsito.png" alt="img_ronggowarsito" class="img-fluid"
+                      title="Filsafat Ki Ageng Ronggowarsito"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g4"><img src="images/sunan_kalijaga.png" alt="img_sunan_kalijaga" class="img-fluid"
+                      title="Filsafat Sunan Kalijaga"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g5"><img src="images/gus_miftah.png" alt="img_gus_miftah" class="img-fluid"
+                      title="Ngaji Gus Miftah"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g6"><img src="images/gus_muwafiq.png" alt="img_gus_muwafiq" class="img-fluid"
+                      title="Ngaji Gus Muwafiq"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g7"><img src="images/coming_soon.png" alt="img" class="img-fluid"></a>
+									</div>
+									<div class="col-lg-3 col-md-4 col-6 gal-img">
+										<a href="#g8"><img src="images/coming_soon.png" alt="img" class="img-fluid"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="slider-info">
+						<div class="bs-slider-overlay1">
+							<h3 class="heading text-center mb-md-5 mb-4">Contact Us</h3>
+							<div class="row">
+                <div class="col-lg-5 col-md-6 mb-2">
+                  <img src="images/me_2.png" class="img-fluid" alt="banner.png" />
+                </div>
+                <div class="col-lg-7 mt-2">
+									<h4 class="text-uppercase mb-3">get in touch with us</h4>
+									<div class="contact">
+										<form action="#" method="post" id="myForm">
+											<div class="row main-w3layouts-sectns">
+												<div class="col-md-6 w3-btm-spc form-text1 pr-1">
+													<input type="text" name="first_name" placeholder="First Name" id="first_name" required>
+												</div>
+												<div class="col-md-6 w3-btm-spc form-text2 pl-1">
+													<input type="text" name="last_name" placeholder="Last Name" id="last_name" required>
+												</div>
+												<div class="col-md-6 w3-btm-spc form-text1 pr-1">
+													<input type="text" name="phone" placeholder="Phone Number" id="phone" required>
+												</div>
+												<div class="col-md-6 w3-btm-spc form-text2 pl-1">
+													<input type="email" name="email" placeholder="Your Email" id="email" required>
+												</div>
+												<div class="col-md-12 w3-btm-spc form-text2">
+													<textarea placeholder="Enter Your Message Here"  name="message"  id="message" required></textarea>
+												</div>
+											</div>
+											<div class="text-left">
+												<button class="btn" id="btn_submit"> Submit</button>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="navigation">
+				<div>
+				  <label for="slides_1"></label>
+				  <label for="slides_3"></label>
+				  <label for="slides_4"></label>
+				  <label for="slides_5"></label>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- //banner -->
+	<!-- footer -->
+	<section class="foooter-section pt-3 pb-5 position-relative">
+		<div class="d-md-flex justify-content-between footer-inner">
+			<!-- social icons-->
+			<ul class="w3layouts_social_list list-unstyled">
+				<li>
+					<a href="#" class="w3pvt_facebook">
+						<span class="fa fa-facebook-square"></span>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="#" class="w3pvt_twitter">
+						<span class="fa fa-linkedin-square"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="w3pvt_dribble">
+						<span class="fa fa-instagram"></span>
+					</a>
+				</li>
+				<li class="ml-2">
+					<a href="#" class="w3pvt_google">
+						<span class="fa fa-youtube-play"></span>
+					</a>
+				</li>
+			</ul>
+			<!-- //social icons-->
+			<!-- copyright -->
+			<div class="copy-right text-lg-right">
+				<p class="">© <script>document.write(new Date().getFullYear())</script> see_udin. All rights reserved</p>
+			</div>
+			<!-- copyright -->
+		</div>
+	</section>
+	<!-- //footer -->
+	</div>
+</div>
+
+</body>
+</html>
