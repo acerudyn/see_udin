@@ -53,21 +53,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         }
       });
 
-  /* disable Right Click F12 Ctrl + Shift + I Ctrl + Shift + J Ctrl + U */
-  document.onkeydown = function(e) {
-    if(event.keyCode == 123) {
-      return false;
+      $(".belum").click(function(){
+        swal("Information", "File belum diupload", "warning");
+      });
+
+    /* disable Right Click F12 Ctrl + Shift + I Ctrl + Shift + J Ctrl + U */
+    document.onkeydown = function(e) {
+      if(event.keyCode == 123) {
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+      }
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+      }
     }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-      return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-      return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-      return false;
-    }
-  }
 
     });
   </script>
@@ -161,23 +165,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                       title="Filsafat Jalaludin Rumi"></a>
 									</div>
 									<div class="col-lg-3 col-md-4 col-6 gal-img">
-										<a href="#g2"><img src="images/rabiah.png" alt="img_rabiah" class="img-fluid"
+										<a href="#g2"><img src="images/rabiah.png" alt="img_rabiah" class="img-fluid belum"
                       title="Filsafat Rabiah Adawiyah"></a>
 									</div>
 									<div class="col-lg-3 col-md-4 col-6 gal-img">
-										<a href="#g3"><img src="images/ronggowarsito.png" alt="img_ronggowarsito" class="img-fluid"
+										<a href="#g3"><img src="images/ronggowarsito.png" alt="img_ronggowarsito" class="img-fluid belum"
                       title="Filsafat Ki Ageng Ronggowarsito"></a>
 									</div>
 									<div class="col-lg-3 col-md-4 col-6 gal-img">
-										<a href="#g4"><img src="images/sunan_kalijaga.png" alt="img_sunan_kalijaga" class="img-fluid"
+										<a href="#g4"><img src="images/sunan_kalijaga.png" alt="img_sunan_kalijaga" class="img-fluid belum"
                       title="Filsafat Sunan Kalijaga"></a>
 									</div>
 									<div class="col-lg-3 col-md-4 col-6 gal-img">
-										<a href="#g5"><img src="images/gus_miftah.png" alt="img_gus_miftah" class="img-fluid"
+										<a href="#g5"><img src="images/gus_miftah.png" alt="img_gus_miftah" class="img-fluid belum"
                       title="Ngaji Gus Miftah"></a>
 									</div>
 									<div class="col-lg-3 col-md-4 col-6 gal-img">
-										<a href="#g6"><img src="images/gus_muwafiq.png" alt="img_gus_muwafiq" class="img-fluid"
+										<a href="#g6"><img src="images/gus_muwafiq.png" alt="img_gus_muwafiq" class="img-fluid belum"
                       title="Ngaji Gus Muwafiq"></a>
 									</div>
 									<div class="col-lg-3 col-md-4 col-6 gal-img">
