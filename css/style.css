@@ -133,6 +133,14 @@ ul {
     -ms-background-size: cover;
     background-size: cover;
 }
+.image-kalijaga {
+    background: url(../images/sunan_kalijaga.png) center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
 .left-text h2 {
     text-transform: uppercase;
     font-size: 30px;
@@ -647,6 +655,14 @@ a.w3pvt_google {
   }
   .image-ronggowarsito {
       background: url(../images/ronggowarsito_front.png) center no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -ms-background-size: cover;
+      background-size: cover;
+  }
+  .image-kalijaga {
+      background: url(../images/sunan_kalijaga.png) center no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
