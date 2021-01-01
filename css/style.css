@@ -191,6 +191,12 @@ ul {
 .slider-info {
     margin-top: 4em;
 }
+
+.news-grids {
+  height: 460px;
+  overflow-y: scroll;
+}
+
 /*-- //banner --*/
 
 
@@ -804,6 +810,11 @@ a.w3pvt_google {
 	.slider-info {
 		margin-top: 2em;
 	}
+  .news-grids {
+    height: auto;
+    /* height: 600px; */
+    /* overflow-y: scroll; */
+  }
 	.left-text h1 span.fa {
 		font-size: 30px;
 		margin-bottom: 15px;
