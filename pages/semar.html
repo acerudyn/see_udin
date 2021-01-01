@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>See_udin | Semar</title>
+<meta name="theme-color" content="#ed0073">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="see_udin, instagram see_udin, Muhamad Akhirudin,
+Akhirudin Muhamad, Website see_udin, Website Muhamad Akhirudin, Responsive web template,
+Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson" />
+
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+	<!-- css files -->
+    <link href="../css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="../css/style.css" rel='stylesheet' type='text/css' />
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../images/icon.png">
+	<!-- //css files -->
+
+	<!-- google fonts -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<!-- //google fonts -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+      $("#btn_submit").click(function(){
+        var firstName = $("#first_name").val();
+        var lastNanme = $("#last_name").val();
+        var Phone = $("#phone").val();
+        var Email = $("#email").val();
+        var Message = $("#message").val();
+
+        if (firstName && lastNanme && Phone && Email && Message != '') {
+          var url = "https://api.whatsapp.com/send?phone=6281387786505&text=Nama%20%3A%20"+firstName+"%20"+lastNanme+
+          "%0ATelefon%20%3A%20"+Phone+"%0AEmail%20%3A%20"+Email+"%0AMessage%20%3A%20"+Message;
+          window.open(url, '_blank');
+        } else {
+          swal("Error", "Harap lengkapi formnya", "error");
+        }
+      });
+
+      $(".belum").click(function(){
+        swal("Information", "File belum diupload", "warning");
+      });
+
+    /* disable Right Click F12 Ctrl + Shift + I Ctrl + Shift + J Ctrl + U */
+    document.onkeydown = function(e) {
+      if(event.keyCode == 123) {
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+        return false;
+      }
+      if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+        return false;
+      }
+      if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+        return false;
+      }
+    }
+
+    });
+  </script>
+
+</head>
+<body oncontextmenu="return false;"> <!-- disbale right click -->
+
+<div class="content">
+	<div class="container">
+
+	<section class="banner_w3lspvt" id="home">
+		<div class="csslider infinity" id="slider1">
+
+			<ul class="banner_slide_bg">
+				<li>
+					<div class="slider-info">
+						<div class="bs-slider-overlay">
+							<div class="row">
+                <div class="col-lg-6 image-semar mt-lg-0">
+								</div>
+								<div class="col-lg-6 left-text">
+									<h1><i class="fa fa-instagram" aria-hidden="true"></i><span> see_udin</span></h1>
+									<h2>Semar</h2>
+									<p class="mt-3">Semar adalah nama tokoh utama dalam punakawan di pewayangan Jawa dan Sunda.
+                    Tokoh ini dikisahkan sebagai pengasuh sekaligus penasihat para kesatria
+                    dalam pementasan wiracarita Mahabharata dan Ramayana dari India. [...]</p>
+									<a href="https://id.wikipedia.org/wiki/Semar" target="_blank">Read More</a>
+                  <a href="#" download target="_blank">Download Audio</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</section>
+	<!-- //banner -->
+	<!-- footer -->
+	<section class="foooter-section pt-3 pb-5 position-relative">
+		<div class="d-md-flex justify-content-between footer-inner">
+			<!-- social icons-->
+			<ul class="w3layouts_social_list list-unstyled">
+				<li>
+					<a href="https://facebook.com/seeudindotcom" class="w3pvt_facebook" target="_blank">
+						<span class="fa fa-facebook-square"></span>
+					</a>
+				</li>
+				<li class="mx-2">
+					<a href="https://www.linkedin.com/in/akhirudin-muhamad-a56b5b126"
+            class="w3pvt_twitter" target="_blank">
+						<span class="fa fa-linkedin-square"></span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/see_udin/" class="w3pvt_dribble" target="_blank">
+						<span class="fa fa-instagram"></span>
+					</a>
+				</li>
+				<li class="ml-2">
+					<a href="https://www.youtube.com/channel/UCSVM_Y3UZPALhCe25RL1O4g"
+            class="w3pvt_google" target="_blank">
+						<span class="fa fa-youtube-play"></span>
+					</a>
+				</li>
+			</ul>
+			<!-- //social icons-->
+			<!-- copyright -->
+			<div class="copy-right text-lg-right">
+				<p class="">© <script>document.write(new Date().getFullYear())</script> see_udin. All rights reserved</p>
+			</div>
+			<!-- copyright -->
+		</div>
+	</section>
+	<!-- //footer -->
+	</div>
+</div>
+
+</body>
+</html>
